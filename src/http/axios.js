@@ -30,7 +30,10 @@ apiInstance.interceptors.response.use(
     if (status === 401) {
       Auth.logout();
       toast.error("Session expired. Please log in again.");
-      if (window.location.hash !== "#/") window.location.href = "/#/";
+      // BASE_URL is '/admin/' in the subpath build, '/' in dev — stay within the app.
+      if (window.location.hash !== "#/") {
+        window.location.href = `${import.meta.env.BASE_URL}#/`;
+      }
     } else if (!error?.config?.disableToast) {
       toast.error(
         (Array.isArray(detail) ? detail[0]?.msg : detail) ||
