@@ -1,0 +1,10 @@
+// tailwind 
+@use 'tailwindcss/base';
+@use 'tailwindcss/components';
+@use 'tailwindcss/utilities';
+// custom
+@use "./style/font";
+@use "./style/customBase";
+@use "./style/customUtilities";
+@use "./style/form.scss";
+@use "./style/style";

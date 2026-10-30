@@ -1,0 +1,71 @@
+// body custom
+.app-body-heading {
+    font-size: var(--font-size-xl);
+    color: var(--base-color);
+    @extend .font_M;
+}
+
+//  text 
+.text-purple {
+    color: var(--purple-color) !important;
+}
+
+.text-blue {
+    color: var(--blue-color) !important;
+}
+
+// -----font families  
+.font_L {
+    font-family: 'Red_Hat_L' !important;
+    font-weight: 300 !important;
+}
+
+.font_R {
+    font-family: 'Red_Hat_R' !important;
+    font-weight: 400 !important;
+}
+
+.font_M {
+    font-family: 'Red_Hat_M' !important;
+    font-weight: 500 !important;
+}
+
+.font_SB {
+    font-family: 'Red_Hat_SB' !important;
+    font-weight: 600 !important;
+}
+
+.font_B {
+    font-family: 'Red_Hat_B' !important;
+    font-weight: 700 !important;
+}
+
+.font_EB {
+    font-family: 'Red_Hat_EB' !important;
+    font-weight: 800 !important;
+}
+
+//global css
+.white-box {
+    @apply bg-white rounded-[16px] border-[#F3F4F6] border mt-5;
+    min-height: 76vh;
+}
+
+// ------- * spinner 
+.sweet-loading {
+    background: rgb(147 147 147 / 50%);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 200px;
+    }
+}

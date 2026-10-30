@@ -1,0 +1,36 @@
+// -------------------- Red_Hat_Display
+@font-face {
+    font-family: 'Red_Hat_L';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Red_Hat_R';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Red_Hat_M';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Red_Hat_SB';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Red_Hat_B';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Red_Hat_EB';
+    src: url('/public/assets/fonts/Red_Hat_Display/RedHatDisplay-ExtraBold.ttf');
+    font-weight: 800;
+}
